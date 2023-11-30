@@ -1,0 +1,443 @@
+/* Credit: Code institute and the Project: Love Running - I have done Several changes have been done in the .html code and the .css during this development. 
+Many the other tested did not act out well or as I wanted in the final styling. Therefore I had to use the structural thinking and reuse code from the Love Running project. 
+To be able to deploy the site and to do this with less error. This is a work in progress and a first submisson, and it was helpful knowledge trying to put the first part of this site together. */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ #menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+    .custom-list {
+    list-style-type: none;
+}
+    .hidden-heading {
+    display: none;
+}
+    .active {
+    border-bottom: 1px solid rosybrown;
+}
+
+body {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    color: rosybrown;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rosybrown;
+}
+
+h2 {
+    font-family: 'Arhivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Merriweather', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+header {
+    background-color: white;
+    color: rosybrown;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px rosybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px rosybrown;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../../assets/images/barista1.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-box {
+    background-color: rgba(188, 143, 143, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 25px;
+    min-height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    border-radius: 25px 50px 25px 50px;
+}
+
+#hero-box>h2 .hero-box>h3 {
+    color: rosybrown;
+}
+
+#footer {
+    background-color: rosybrown;
+    min-height: 1px;
+    width: 100%;
+    margin: 20px auto;
+    padding-left: 1%;
+}
+
+#footer h2 {
+    color: #2d9d96;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%
+}
+
+#hero-about {
+    height: 600px;
+    width: 100%;
+    background: url("../../assets/images/barista2.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-about-content {
+    background-color: rgba(188, 143, 143, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 25px;
+    min-height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    border-radius: 25px 50px 25px 50px;
+}
+
+#hero-about-content>h2 #about-box>h3 {
+    color: rosybrown;
+}
+
+#about-content-box {
+    height: 600px;
+    width: 90%;
+    background: url("../../assets/images/barista3.webp") no-repeat center center/cover;
+    margin: 20px auto;
+    padding-left: 1%;
+    position: relative;
+}
+
+#socialmedia {
+    text-align: justify;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#socialmedia i {
+    font-size: 160%;
+    padding: 5%;
+    color: rosybrown;
+}
+
+#hero-box>h2,
+#hero-box>h3 {
+    color: white;
+}
+
+#motivation-box>h2,
+#motivation-box>h3 {
+    color: rosybrown;
+}
+
+#motivation-box>p {
+    color: white;
+}
+
+#about-box>h2,
+aboutbox>h3 {
+    color: white;
+}
+
+#newsletter {
+    height: 600px;
+    width: 100%;
+    background: url("../../assets/images/barista4.webp") no-repeat center center/cover;
+    background-position-x: center;
+   background-position-y: center;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-size: cover;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
+
+#newsletter-form {
+    color: #ffffff;
+    background-color: rgba(188, 143, 143, 0.95);
+    padding: 30px;
+    border-radius: 25px 50px 25px 50px;
+}
+
+#newsletter-form>h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#contact {
+height: 600px;
+    width: 100%;
+    background: url("../../assets/images/barista5.webp") no-repeat center center/cover;
+   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-size: cover;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(188, 143, 143, 0.98);
+    padding: 30px;
+    border-radius: 25px 50px 25px 50px;
+}
+
+#contact-form>h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+.join-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: rosybrown;
+  color: white;
+  box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
+}
+
+@media (max-width: 768px) {
+  .join-button {
+    float: none;
+    margin: 0 auto;
+}
+
+.about {
+  height: 600px;
+  width: 100%;
+  background: url("../../assets/images/barista6.webp") no-repeat center center/cover;
+  background-position-x: center;
+  background-position-y: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-size: cover;
+  padding: 20px 10% 0 10%;
+  flex-grow: 1;
+}
+
+.about-overlay {
+    color: #ffffff;
+    background-color: rgba(188, 143, 143, 0.95);
+    padding: 30px;
+    border-radius: 25px 50px 25px 50px;
+}
+
+.textbox p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.textbox-overlay {
+    color: #ffffff;
+    background-color: rgba(188, 143, 143, 0.95);
+    padding: 30px;
+    border-radius: 25px 50px 25px 50px;
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+    color: rosybrown;
+}
+.center {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    .about p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.textbox {
+    background: url("../../assets/images/barista7.webp") no-repeat center center/cover;
+    box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
+    }
+    
+@media screen and (max-width: 767px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        display: block;
+    }
+
+    #logo {
+        font-size: 180%;
+        line-height: 50px;
+        margin: 0 0.25rem;
+    }
+    .about p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  }
+  #contact-form>h2 {
+    font-size: 12px;
+    color: white;
+    margin-bottom: 20px;
+    }
+}
+    .textbox {
+    background: none;
+    }
+}
+    h2 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+ #logo {
+        font-size: 180%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
