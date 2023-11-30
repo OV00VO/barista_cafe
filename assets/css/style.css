@@ -1,7 +1,3 @@
-/* Credit: Code institute and the Project: Love Running - I have done Several changes have been done in the .html code and the .css during this development. 
-Many the other tested did not act out well or as I wanted in the final styling. Therefore I had to use the structural thinking and reuse code from the Love Running project. 
-To be able to deploy the site and to do this with less error. This is a work in progress and a first submisson, and it was helpful knowledge trying to put the first part of this site together. */
-
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 * {
@@ -9,24 +5,27 @@ To be able to deploy the site and to do this with less error. This is a work in 
     margin: 0;
     box-sizing: border-box;
 }
- #menu {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
 
-        #menu li {
-            display: inline;
-            margin-right: 20px;
-        }
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
-    .custom-list {
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.custom-list {
     list-style-type: none;
 }
-    .hidden-heading {
+
+.hidden-heading {
     display: none;
 }
-    .active {
+
+.active {
     border-bottom: 1px solid rosybrown;
 }
 
@@ -216,18 +215,18 @@ aboutbox>h3 {
     width: 100%;
     background: url("../../assets/images/barista4.webp") no-repeat center center/cover;
     background-position-x: center;
-   background-position-y: center;
+    background-position-y: center;
     top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  background-size: cover;
-  padding: 20px 10% 0 10%;
-  flex-grow: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 #newsletter-form {
@@ -243,20 +242,20 @@ aboutbox>h3 {
 }
 
 #contact {
-height: 600px;
+    height: 600px;
     width: 100%;
     background: url("../../assets/images/barista5.webp") no-repeat center center/cover;
-   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  background-size: cover;
-  padding: 20px 10% 0 10%;
-  flex-grow: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 #contact-form {
@@ -286,41 +285,43 @@ height: 600px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    }
+}
+
 .join-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px;
-  font-size: 100%;
-  background-color: rosybrown;
-  color: white;
-  box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rosybrown;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
 }
 
 @media (max-width: 768px) {
-  .join-button {
-    float: none;
-    margin: 0 auto;
+    .join-button {
+        float: none;
+        margin: 0 auto;
+    }
 }
 
 .about {
-  height: 600px;
-  width: 100%;
-  background: url("../../assets/images/barista6.webp") no-repeat center center/cover;
-  background-position-x: center;
-  background-position-y: center;
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  background-size: cover;
-  padding: 20px 10% 0 10%;
-  flex-grow: 1;
+    height: 600px;
+    width: 100%;
+    background: url("../../assets/images/barista6.webp") no-repeat center center/cover;
+    background-position-x: center;
+    background-position-y: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 .about-overlay {
@@ -331,11 +332,11 @@ height: 600px;
 }
 
 .textbox p {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
 }
 
 .textbox-overlay {
@@ -350,6 +351,7 @@ height: 600px;
     text-align: center;
     color: rosybrown;
 }
+
 .center {
     text-align: center;
 }
@@ -381,63 +383,67 @@ height: 600px;
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
     .about p {
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: left;
-}
-.textbox {
-    background: url("../../assets/images/barista7.webp") no-repeat center center/cover;
-    box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
-    }
-    
-@media screen and (max-width: 767px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
     }
 
-    #menu {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        display: block;
-    }
-
-    #logo {
-        font-size: 180%;
-        line-height: 50px;
-        margin: 0 0.25rem;
-    }
-    .about p {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: left;
-  }
-  #contact-form>h2 {
-    font-size: 12px;
-    color: white;
-    margin-bottom: 20px;
-    }
-}
     .textbox {
-    background: none;
+        background: url("../../assets/images/barista7.webp") no-repeat center center/cover;
+        box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
     }
-}
-    h2 {
-        font-size: 12px;
-    }
-}
 
-@media screen and (max-width: 900px) {
- #logo {
-        font-size: 180%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+    @media screen and (max-width: 767px) {
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #menu {
+            display: none;
+        }
+
+        .nav-toggle-label {
+            display: block;
+        }
+
+        #logo {
+            font-size: 180%;
+            line-height: 50px;
+            margin: 0 0.25rem;
+        }
+
+        .about p {
+            margin: 0;
+            padding: 0;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: left;
+        }
+
+        #contact-form>h2 {
+            font-size: 12px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .textbox {
+            background: none;
+        }
+
+        h2 {
+            font-size: 12px;
+        }
     }
-}
+
+    @media screen and (max-width: 900px) {
+        #logo {
+            font-size: 180%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+        }
+    }
