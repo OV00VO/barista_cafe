@@ -4,7 +4,7 @@
 
 [Link to Final Project: Barista Café](https://ov00vo.github.io/barista_cafe/)
 
-![Mockup of the Project](#)
+
 
 ## About the Project
 
