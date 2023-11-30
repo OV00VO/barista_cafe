@@ -37,12 +37,38 @@
 
     <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>Main Content Section</h2>
-            <p>This is the main content section.</p>
+        <section id="contact">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-envelope fa-bounce"></i> Contact Barista Café!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <label for="phone_number">Phone number</label>
+                <input type="tel" name="phone_preference" id="phone_number" class="text-input">
+                <div class="center">
+                    <p>Contact me - I prefer to be contacted:</p><br>
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="contact_asap">ASAP!</label>
+                            <input type="radio" name="contact_preference" id="contact_asap" value="contact_asap" required>
+                        </div>
+                        <div>
+                            <label for="contact_am">AM</label>
+                            <input type="radio" name="contact_preference" id="contact_am" value="contact_am" required>
+                        </div>
+                        <div>
+                            <label for="contact_pm">PM</label>
+                            <input type="radio" name="contact_preference" id="contact_pm" value="contact_pm" required>
+                        </div>
+                    </div><br>
+                    <button type="submit" class="join-button">Contact us Now!</button>
+                </div>
+            </form>
         </section>
     </main>
-
     <!-- Main Footer -->
     <section id="footer">
         <h6>.</h6>

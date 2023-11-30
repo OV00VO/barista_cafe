@@ -38,9 +38,27 @@
 
     <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>Main Content Section</h2>
-            <p>This is the main content section.</p>
+        <section id="newsletter">
+            <form id="newsletter-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-newspaper fa-bounce"></i> Signup To Our Newsletter Today! Get a free coffee for
+                    2!!!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <div class="center">
+                    <div>
+                        <label for="barista_member">Apply for membership</label>
+                        <input type="radio" name="Membership_selection" id="barista_member" value="membership"><br><br>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section id="footer">
+            <h6>.</h6>
+            <div id="footer-box"></div>
         </section>
     </main>
 
