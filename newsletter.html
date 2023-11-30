@@ -1,3 +1,8 @@
+<!-- Credits: Code Institute - Header -->
+<!-- Credit: Code institute and the Project: Love Running - I have made several changes in the .html code and the .css during this development. 
+Many other tests did not turn out well or as I wanted in the final styling. Therefore, I had to use structural thinking and reuse code from the Love Running project. 
+To be able to deploy the site and to do this with fewer errors. This is a work in progress and a first submission, and it was helpful knowledge trying to put the first part of this site together. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,32 +21,29 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-    <!-- Main Header -->
-    <body>
-        <header>
-            <a href="index.html">
-                <h1 id="logo">Barista Café</h1>
-            </a>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="newsletter.html" class="active">Newsletter Sign Up</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-
-    <!-- Main Content Section -->
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Barista Café</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="newsletter.html" class="active">Newsletter Sign Up</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="newsletter">
             <form id="newsletter-form" method="POST" action="https://formdump.codeinstitute.net">
-                <h2><i class="fa-solid fa-newspaper fa-bounce"></i> Signup To Our Newsletter Today! Get a free coffee for
-                    2!!!</h2>
+                <h2><i class="fa-solid fa-newspaper fa-bounce"></i> Signup To Our Newsletter Today! Get a free coffee
+                    for 2!!!</h2>
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <label for="last_name">Last Name</label>
@@ -49,10 +51,10 @@
                 <label for="email_address">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <div class="center">
-                    <div>
-                        <label for="barista_member">Apply for membership</label>
-                        <input type="radio" name="Membership_selection" id="barista_member" value="membership"><br><br>
-                    </div>
+                    <label for="barista_member">Apply for membership</label>
+                    <input type="radio" name="Membership_selection" id="barista_member" value="membership"><br><br>
+                    <br>
+                    <button type="submit" class="join-button">Apply Now!</button>
                 </div>
             </form>
         </section>
@@ -61,54 +63,46 @@
             <div id="footer-box"></div>
         </section>
     </main>
-
-    <!-- Main Footer -->
-    <section id="footer">
-        <h6>.</h6>
-        <div id="footer-box"></div>
-        <br>
-    </section>
     <footer>
-        <br>
-        <ul id="socialmedia">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook fa-beat-fade"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter fa-beat-fade"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram fa-beat-fade"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube fa-beat-fade"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our TikTok page (opens in a new tab)">
-                    <i class="fa-brands fa-tiktok fa-beat-fade"></i>
-                </a>
-            </li>
-        </ul>
+        <div class="social-media-container">
+            <ul id="socialmedia">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <i class="fa-brands fa-facebook fa-beat-fade"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)">
+                        <i class="fa-brands fa-twitter fa-beat-fade"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube page (opens in a new tab)">
+                        <i class="fa-brands fa-youtube fa-beat-fade"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our TikTok page (opens in a new tab)">
+                        <i class="fa-brands fa-tiktok fa-beat-fade"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 - Barista Café - Premium Coffee - All rights reserved.</p>
+        </div>
     </footer>
     <script src="https://kit.fontawesome.com/7dd2cb17e4.js" crossorigin="anonymous"></script>
-    <div class="copyright">
-        <br>
-        <p>&copy; 2023 - Barista Café - Premium Coffee - All rights reserved.</p>
-        <br>
-    </div>
-    </body>
-    
-    </html>
+</body>
+
+</html>
