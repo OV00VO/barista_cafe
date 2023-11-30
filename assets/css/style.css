@@ -17,6 +17,10 @@
     margin-right: 20px;
 }
 
+#menu li:hover {
+    color: #b26a6a;
+}
+
 .custom-list {
     list-style-type: none;
 }
@@ -290,11 +294,17 @@ aboutbox>h3 {
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
+    border: 1px solid white;
     padding: 15px 32px;
     font-size: 100%;
     background-color: rosybrown;
     color: white;
-    box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
+    box-shadow: 0px 3px 5px rgba(245, 245, 245, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #b26a6a;
 }
 
 @media (max-width: 768px) {
@@ -439,11 +449,12 @@ aboutbox>h3 {
             font-size: 12px;
         }
     }
+}
 
-    @media screen and (max-width: 900px) {
-        #logo {
-            font-size: 180%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-        }
+@media screen and (max-width: 900px) {
+    #logo {
+        font-size: 180%;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
+}

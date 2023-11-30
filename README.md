@@ -1,8 +1,8 @@
 # Barista Café
 
-[Link to REpository: Barista Café](https://github.com/OV00VO/barista)
+[Link to REpository: Barista Café](https://github.com/OV00VO/barista_cafe)
 
-[Link to Final Project: Barista Café](https://ov00vo.github.io/barista/)
+[Link to Final Project: Barista Café](https://ov00vo.github.io/barista_cafe/)
 
 ![Mockup of the Project](#)
 
