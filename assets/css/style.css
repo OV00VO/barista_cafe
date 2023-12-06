@@ -1,4 +1,5 @@
-/* Credits: Code Institute - Header -->< !-- Credit: Code institute and the Project: Love Running - I have made several changes in the .html code and the .css during this development. Many other tests did not turn out well or as I wanted in the final styling. Therefore,
+/* Credits: Code Institute - Header -->
+<!-- Credit: Code institute and the Project: Love Running - I have made several changes in the .html code and the .css during this development. Many other tests did not turn out well or as I wanted in the final styling. Therefore,
 I had to use structural thinking and reuse code from the Love Running project. To be able to deploy the site and to do this with fewer errors. */
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
@@ -10,9 +11,11 @@ I had to use structural thinking and reuse code from the Love Running project. T
 }
 
 #menu {
+    display: none;
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 #menu li {
@@ -45,7 +48,6 @@ body {
     font-family: 'Archivo Narrow', sans-serif;
 }
 
-
 h1 {
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
@@ -54,7 +56,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Arhivo Narrow', sans-serif;
+    font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: white;
@@ -77,7 +79,7 @@ header {
     box-shadow: 0 2px 2px rosybrown;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
@@ -113,8 +115,8 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    cursor: pointer;
 }
-
 
 #hero {
     height: 600px;
@@ -123,10 +125,17 @@ nav {
     position: relative;
 }
 
+#hero2 {
+    height: 600px;
+    width: 100%;
+    background: url("../../assets/images/barista3.webp") no-repeat center center/cover;
+    position: relative;
+}
+
 #hero-box {
     background-color: rgba(188, 143, 143, .7);
-    font-size: 130%;
     position: absolute;
+    font-size: 130%;
     bottom: 25px;
     min-height: 150px;
     padding-top: 40px;
@@ -134,8 +143,11 @@ nav {
     border-radius: 25px 50px 25px 50px;
 }
 
-#hero-box>h2 .hero-box>h3 {
+#hero-box>h2,
+#hero-box>h3 {
     color: rosybrown;
+    color: white;
+    text-align: center;
 }
 
 #footer {
@@ -153,35 +165,10 @@ nav {
     font-size: 280%
 }
 
-#hero-about {
-    height: 600px;
-    width: 100%;
-    background: url("../../assets/images/barista2.webp") no-repeat center center/cover;
-    position: relative;
-}
-
-#hero-about-content {
-    background-color: rgba(188, 143, 143, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 25px;
-    min-height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
-    border-radius: 25px 50px 25px 50px;
-}
-
-#hero-about-content>h2 #about-box>h3 {
-    color: rosybrown;
-}
-
-#about-content-box {
-    height: 600px;
-    width: 90%;
-    background: url("../../assets/images/barista3.webp") no-repeat center center/cover;
-    margin: 20px auto;
-    padding-left: 1%;
-    position: relative;
+#logo {
+    font-size: 110%;
+    line-height: 50px;
+    margin: 0 0.5rem;
 }
 
 #socialmedia {
@@ -196,25 +183,6 @@ nav {
     font-size: 160%;
     padding: 5%;
     color: rosybrown;
-}
-
-#hero-box>h2,
-#hero-box>h3 {
-    color: white;
-}
-
-#motivation-box>h2,
-#motivation-box>h3 {
-    color: rosybrown;
-}
-
-#motivation-box>p {
-    color: white;
-}
-
-#about-box>h2,
-aboutbox>h3 {
-    color: white;
 }
 
 #newsletter {
@@ -310,49 +278,15 @@ aboutbox>h3 {
     background-color: #b26a6a;
 }
 
-@media (max-width: 768px) {
-    .join-button {
-        float: none;
-        margin: 0 auto;
-    }
-}
-
-.about {
-    height: 600px;
-    width: 100%;
-    background: url("../../assets/images/barista6.webp") no-repeat center center/cover;
-    background-position-x: center;
-    background-position-y: center;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    background-size: cover;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
-
-.about-overlay {
+.textbox-overlay {
     color: #ffffff;
     background-color: rgba(188, 143, 143, 0.95);
     padding: 30px;
     border-radius: 25px 50px 25px 50px;
+    margin: 10px;
 }
 
-.textbox p {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-}
-
-.textbox-overlay {
+.textbox2-overlay {
     color: #ffffff;
     background-color: rgba(188, 143, 143, 0.95);
     padding: 30px;
@@ -370,7 +304,6 @@ aboutbox>h3 {
 }
 
 @media screen and (min-width: 768px) {
-
     nav {
         display: block;
         position: relative;
@@ -392,17 +325,9 @@ aboutbox>h3 {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 110%;
+        line-height: 50px;
         margin: 0 0.5rem;
-    }
-
-    .about p {
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: left;
     }
 
     .textbox {
@@ -410,54 +335,20 @@ aboutbox>h3 {
         box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
     }
 
-    @media screen and (max-width: 767px) {
-        nav {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        #menu {
-            display: none;
-        }
-
-        .nav-toggle-label {
-            display: block;
-        }
-
-        #logo {
-            font-size: 180%;
-            line-height: 50px;
-            margin: 0 0.25rem;
-        }
-
-        .about p {
-            margin: 0;
-            padding: 0;
-            font-size: 14px;
-            line-height: 24px;
-            text-align: left;
-        }
-
-        #contact-form>h2 {
-            font-size: 12px;
-            color: white;
-            margin-bottom: 20px;
-        }
-
-        .textbox {
-            background: none;
-        }
-
-        h2 {
-            font-size: 12px;
-        }
+    .textbox2 {
+        background: url("../../assets/images/barista6.webp") no-repeat center center/cover;
+        box-shadow: 0px 2px 5px rgba(245, 245, 245, 0.5);
     }
 }
 
-@media screen and (max-width: 900px) {
-    #logo {
-        font-size: 180%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+@media (max-width: 767px) {
+    .join-button {
+        float: none;
+        margin: 0 auto;
+    }
+
+    h2,
+    h3 {
+        font-size: 80%;
     }
 }

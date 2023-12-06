@@ -1,7 +1,5 @@
 <!-- Credits: Code Institute - Header -->
-<!-- Credit: Code institute and the Project: Love Running - I have made several changes in the .html code and the .css during this development. 
-Many other tests did not turn out well or as I wanted in the final styling. Therefore, I had to use structural thinking and reuse code from the Love Running project. 
-To be able to deploy the site and to do this with fewer errors. -->
+<!-- Credit: Code institute and the Project: Love Running - I have made several changes in the .html code and the .css during this development compared to the original, but it follows a similar structure. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +15,7 @@ To be able to deploy the site and to do this with fewer errors. -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -51,17 +49,20 @@ To be able to deploy the site and to do this with fewer errors. -->
                 <label for="email_address">Email Address</label>
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <div class="center">
-                    <label for="barista">Apply for Membership</label>
+                    <label for="barista_member">Apply for membership</label>
                     <input type="radio" name="Membership_selection" id="barista_member" value="membership"><br><br>
+                    <br>
                     <button type="submit" class="join-button">Apply Now!</button>
                 </div>
             </form>
         </section>
-        <section id="footer">
-            <h6>.</h6>
-            <div id="footer-box"></div>
-        </section>
     </main>
+    <section id="footer">
+        <h6>.</h6>
+        <div id="footer-box"></div>
+        <br>
+    </section>
+
     <footer>
         <div class="social-media-container">
             <ul id="socialmedia">
