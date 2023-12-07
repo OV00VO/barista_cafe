@@ -1,18 +1,33 @@
 # Barista Café
 
+![barista_responsive](https://github.com/OV00VO/barista_cafe/assets/136384344/c449c8ad-5e40-4e00-ae2e-9c8b140150c0)
+
 [Link to Repository: Barista Café](https://github.com/OV00VO/barista_cafe)
 
 [Link to Final Project: Barista Café](https://ov00vo.github.io/barista_cafe/)
 
-
-
 ## About the Project
+
+![home](https://github.com/OV00VO/barista_cafe/assets/136384344/643b3926-4d48-4c0c-8af9-4ce866bec4a5)
 
 Barista Café is a 4-page website designed to captivate coffee enthusiasts and invite them to explore the unique world of specialty coffee. Tailored for all individuals who drink coffee, our café offers a diverse range of coffee experiences, from initial coffee exploration to becoming a true coffe connoisseur. Emphasizing community and enjoyment, Barista Café provides a welcoming space for individuals with busy schedules to indulge in the art of coffee appreciation.
 
 ### Features of the Site
 
 Barista Café equips visitors with the essentials to dive into the world of coffee immediately. The site facilitates easy membership sign-ups, allowing users to choose their preferred level of engagement. Starting with basic memberships, clients can enjoy the flexibility of upgrading with additional perks. The user-friendly sign-up form expedites the onboarding process, emphasizing the primary goal of getting people to enjoy coffee while having a great time. Special team activities and personalized training sessions contribute to the overall experience.
+
+### Responsive header
+
+![large_header](https://github.com/OV00VO/barista_cafe/assets/136384344/2ca2ffbe-e6a0-4343-b3b9-30bb1bb2e756)
+
+![mobile_header](https://github.com/OV00VO/barista_cafe/assets/136384344/231c8d52-2e96-4e10-b5df-2e33e900a24f)
+
+### Site content
+![newsletter](https://github.com/OV00VO/barista_cafe/assets/136384344/1fda8599-bfae-4f16-9e1c-6b3b2f84049e)
+
+![about](https://github.com/OV00VO/barista_cafe/assets/136384344/87a34644-b7da-48f9-8dc0-bfa287337118)
+
+![contact_1](https://github.com/OV00VO/barista_cafe/assets/136384344/dd037482-0462-4c94-8931-6222ebc472a2)
 
 ## Future Development
 
@@ -28,31 +43,33 @@ Future developments may include a booking system, live training schedules, and a
 - **Hero Section:** Below the fold, features an eye-catching image of a traditional coffee experience.
 - **Membership Submission Form:** Employs an image signaling vitality, with social media links in the footer.
 - **About Us Page:** Provides insights into the café's identity and mission.
-- **Contact Submission Form:** Simplified for 24/7 contact with the café.
-
-¤ Placeholder
+- **Contact Submission Form:** Simplified for contact with the café.
 
 ### Testing
 
 The site, designed for optimal performance, has undergone rigorous testing using Lighthouse, Google Developer Tools (Page Speed Insights), and official validators (W3C validator, Jigsaw validator).
 
-Home, Newsletter Signup, About Us and Contact Us
+## Home, Newsletter Signup, About Us and Contact Us
 
-- **Page
-- **Responsive
-- **Graphical Bugs
-- **Visibility/Contrast
-- **Overall Performance
+Testing OK - **Page**
+Testing OK - **Responsive**
+Testing OK - **Graphical Bugs**
+Testing OK - **Visibility/Contrast**
+Testing OK - **Overall Performance**
 
-Note: All Manual Test Results was OK and no UX/UI issues was detected.
+**Note:** All Manual Test Results was OK and no UX/UI issues was detected in the latest version.
 
-¤ Placeholder, Testing, HTML, W3C validator
-¤ Placeholder, Testing, CSS, Jigsaw Valitator
-¤ Placeholder, Testing, Pagespeed, Lighthouse
+Testing OK - **HTML, W3C validator**
+Testing OK - **CSS, Jigsaw Valitator**
+Testing OK - **Pagespeed, Lighthouse**
 
-### Deployment
+### Bugs
+During the development there where several minor programming issues with both HTML and CSS. To get all the functions in place and the responsiveness to be correct shown without adding JavaScript was a challenge. In the project there was only supposed to be strict and validated HTML and CSS. 
 
-Barista Café is hosted on GitHub Pages. Deployment involves navigating to the Settings tab in the GitHub repository, selecting the Master Branch from the source section drop-down menu, and confirming the automatic update. Although deployment had initial challenges, the site now successfully reflects updates. Relative paths were adjusted using the published site name in the URL.
+**Note:** The version provided here has not any known bugs by the developer.
+
+## Solved bugs
+The bugs in the project was mostly beginners issues based on left out parts in the code such as a missing brackets to close a section or handling div in the right way.
 
 ### Credits
 
@@ -64,7 +81,7 @@ Text content is providing a mix of relevant information based on standard coffee
 
 ### Media
 
-Images from Unsplash, edited for format consistency, contribute to the visual appeal of Barista Café's pages.
+Images are downloaded from Unsplash and compressed to web p format. The have been edited for format consistency, contribute to the visual appeal of Barista Café's pages.
 
 ## User/Owner Stories
 
@@ -86,16 +103,14 @@ The font choices prioritize readability and simplicity, using sans-serif fonts f
 
 The layout focuses on simplicity and ease of navigation, with clear sections for membership, and information about the café, providing a straightforward user experience.
 
-## Testing
-
-The site, designed for optimal performance, has undergone rigorous testing on each individual page. Below is a table listing the tests carried out and whether they passed or not.
-
 ## Deployment
+
+Barista Café is hosted on GitHub Pages. Deployment involves navigating to the Settings tab in the GitHub repository, selecting the Master Branch from the source section drop-down menu, and confirming the automatic update. Although deployment had initial challenges, the site now successfully reflects updates. Relative paths were adjusted using the published site name in the URL.
 
 To clone or fork the project for further development:
 
-1. Clone the repository: `git clone https://github.com/OV00VO/barista.git`
-2. Navigate to the project directory: `cd barista`
+1. Clone the repository: `git clone https://github.com/OV00VO/barista_cafe.git`
+2. Navigate to the project directory: `cd barista_cafe`
 3. Explore and develop further!
 
 The site is hosted on GitHub Pages. Deployment involves navigating to the Settings tab in the GitHub repository, selecting the Master Branch from the source section drop-down menu, and confirming the automatic update.
