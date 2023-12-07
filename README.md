@@ -62,6 +62,15 @@ The site, designed for optimal performance, has undergone rigorous testing using
 - Testing OK - **HTML, W3C validator**
 - Testing OK - **CSS, Jigsaw Valitator**
 - Testing OK - **Pagespeed, Lighthouse**
+- Testing OK - **Form Submissions Newsletter Sign Up and Contact Us**
+  
+![barista_computer](https://github.com/OV00VO/barista_cafe/assets/136384344/572e23f7-c15d-4a4a-b181-0cb9c80debab)
+
+![barista_mobile](https://github.com/OV00VO/barista_cafe/assets/136384344/8120d208-291d-4d2a-90fe-0ded64ffdc31)
+
+![form_1](https://github.com/OV00VO/barista_cafe/assets/136384344/a4d2bcd2-a35f-47d9-8e4d-e73c55fad78b)
+
+![member](https://github.com/OV00VO/barista_cafe/assets/136384344/dabb6f74-849d-458b-8888-00d73c7f06fd)
 
 ## Bugs
 During the development there where several minor programming issues with both HTML and CSS. To get all the functions in place and the responsiveness to be correct shown without adding JavaScript was a challenge. In the project there was only supposed to be strict and validated HTML and CSS. 
