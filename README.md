@@ -1,6 +1,6 @@
 # Barista Café
 
-[Link to REpository: Barista Café](https://github.com/OV00VO/barista_cafe)
+[Link to Repository: Barista Café](https://github.com/OV00VO/barista_cafe)
 
 [Link to Final Project: Barista Café](https://ov00vo.github.io/barista_cafe/)
 
@@ -14,7 +14,7 @@ Barista Café is a 4-page website designed to captivate coffee enthusiasts and i
 
 Barista Café equips visitors with the essentials to dive into the world of coffee immediately. The site facilitates easy membership sign-ups, allowing users to choose their preferred level of engagement. Starting with basic memberships, clients can enjoy the flexibility of upgrading with additional perks. The user-friendly sign-up form expedites the onboarding process, emphasizing the primary goal of getting people to enjoy coffee while having a great time. Special team activities and personalized training sessions contribute to the overall experience.
 
-### Future Development
+## Future Development
 
 ### Possible Future Developments
 
@@ -43,7 +43,6 @@ Home, Newsletter Signup, About Us and Contact Us
 - **Graphical Bugs
 - **Visibility/Contrast
 - **Overall Performance
--
 
 Note: All Manual Test Results was OK and no UX/UI issues was detected.
 
